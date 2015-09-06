@@ -30,7 +30,7 @@ function proud_document_display_panelizer_defaults() {
   $panelizer->link_to_entity = TRUE;
   $panelizer->extra = array();
   $display = new panels_display();
-  $display->layout = 'helm_sidebar_right';
+  $display->layout = 'proud_sidebar_right';
   $display->layout_settings = array();
   $display->panel_settings = array(
     'style_settings' => array(

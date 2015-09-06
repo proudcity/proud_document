@@ -11,7 +11,7 @@ function proud_document_display_default_page_manager_pages() {
   $page = new stdClass();
   $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
   $page->api_version = 1;
-  $page->name = 'helm_documents';
+  $page->name = 'proud_documents';
   $page->task = 'page';
   $page->admin_title = 'Documents';
   $page->admin_description = '';
@@ -37,9 +37,9 @@ function proud_document_display_default_page_manager_pages() {
   $handler = new stdClass();
   $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
   $handler->api_version = 1;
-  $handler->name = 'page_helm_documents__panel_context_214d17c7-b78b-4027-aa7a-745832e4a474';
+  $handler->name = 'page_proud_documents__panel_context_214d17c7-b78b-4027-aa7a-745832e4a474';
   $handler->task = 'page';
-  $handler->subtask = 'helm_documents';
+  $handler->subtask = 'proud_documents';
   $handler->handler = 'panel_context';
   $handler->weight = 0;
   $handler->conf = array(
@@ -54,7 +54,7 @@ function proud_document_display_default_page_manager_pages() {
     'relationships' => array(),
   );
   $display = new panels_display();
-  $display->layout = 'helm_sidebar_left';
+  $display->layout = 'proud_sidebar_left';
   $display->layout_settings = array();
   $display->panel_settings = array(
     'style_settings' => array(
@@ -115,7 +115,7 @@ function proud_document_display_default_page_manager_pages() {
   $display->title_pane = 'new-247da01d-3e73-4a34-8ab1-e2d416c55294';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
-  $pages['helm_documents'] = $page;
+  $pages['proud_documents'] = $page;
 
   return $pages;
 

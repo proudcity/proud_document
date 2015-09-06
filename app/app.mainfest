@@ -1,6 +1,6 @@
 name = Proud Document
 description = Create a document archive for documents, forms, and meeting minutes.
-machine_name = helm_document
+machine_name = proud_document
 version = 7.x-1.0-beta1
 author = Albatross Digital
 author_url = http://albatrossdigital.com

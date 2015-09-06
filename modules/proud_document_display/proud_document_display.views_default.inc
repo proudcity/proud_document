@@ -111,8 +111,8 @@ function proud_document_display_views_default_views() {
   $handler->display->display_options['fields']['created']['field'] = 'created';
   $handler->display->display_options['fields']['created']['label'] = 'Date';
   $handler->display->display_options['fields']['created']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['created']['date_format'] = 'helm_date_formats_date_short';
-  $handler->display->display_options['fields']['created']['second_date_format'] = 'helm_date_formats_date_short';
+  $handler->display->display_options['fields']['created']['date_format'] = 'proud_date_formats_date_short';
+  $handler->display->display_options['fields']['created']['second_date_format'] = 'proud_date_formats_date_short';
   /* Field: Content: Attachments */
   $handler->display->display_options['fields']['field_attachment']['id'] = 'field_attachment';
   $handler->display->display_options['fields']['field_attachment']['table'] = 'field_data_field_attachment';
