@@ -1,7 +1,7 @@
-name = Helm Document
+name = Proud Document
 description = Create a document archive for documents, forms, and meeting minutes.
 core = 7.x
-package = Helm
+package = Proud
 version = 7.x-1.0-beta1
 project = proud_document
 dependencies[] = angular_media

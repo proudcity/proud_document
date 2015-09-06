@@ -1,7 +1,7 @@
-name = Helm Document Display
+name = Proud Document Display
 description = Adds panels and views for Documents
 core = 7.x
-package = Helm Display
+package = Proud Display
 version = 7.x-1.0-beta1
 project = proud_document_display
 dependencies[] = defaultconfig

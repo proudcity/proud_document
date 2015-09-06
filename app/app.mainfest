@@ -1,4 +1,4 @@
-name = Helm Document
+name = Proud Document
 description = Create a document archive for documents, forms, and meeting minutes.
 machine_name = helm_document
 version = 7.x-1.0-beta1
